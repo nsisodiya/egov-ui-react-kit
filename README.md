@@ -1,2 +1,7 @@
-# egov-ui-react-kit
-UI React Kit for the EGov Project
+How to start
+============
+```bash
+npm install
+npm run devserver 
+open http://localhost:8123
+```
