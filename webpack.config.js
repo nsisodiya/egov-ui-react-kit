@@ -6,13 +6,14 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: "bundle.js"
   },
-  plugins: [
-    new CopyWebpackPlugin([
-      {from: "src/index.html"}])
-  ],
+  plugins: [new CopyWebpackPlugin([{ from: "src/index.html" }])],
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader", "eslint-loader"]
+      }
     ]
   }
 };
