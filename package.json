@@ -1,0 +1,20 @@
+{
+  "name": "@billexo/egov-ui-react-kit",
+  "version": "1.0.0",
+  "description": "UI React Kit for the EGov Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsisodiya/egov-ui-react-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsisodiya/egov-ui-react-kit/issues"
+  },
+  "homepage": "https://github.com/nsisodiya/egov-ui-react-kit#readme"
+}
