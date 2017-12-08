@@ -8,15 +8,11 @@ import PropTypes from "prop-types"; // ES6
 import styled from "styled-components";
 
 const Container = styled.div`
-  //border-radius: 3px;
-  //padding: 20px;
-  //background: white;
   border: 1px solid lightgray;
   height: 98px;
   label {
     font-size: 18px !important;
   }
-  
   input{
     border-right: 0 !important;
     border-radius: 5px !important;
@@ -92,7 +88,6 @@ export default class UiNumberField extends Component {
         <TextField
           //id={this.props.jsonPath.split(".").join("-")}
           inputStyle={{ color: "#5F5C57" }}
-          //errorStyle={JSON.parse('{"float":"left"}')}
           fullWidth={true}
           type="number"
           //value={this.props.value}
