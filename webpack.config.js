@@ -6,9 +6,15 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: "bundle.js"
   },
+  //TODO - disable source map in production
+  devtool: "source-map",
   plugins: [new CopyWebpackPlugin([{ from: "src/index.html" }])],
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
