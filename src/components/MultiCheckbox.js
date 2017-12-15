@@ -150,7 +150,7 @@ export default class MultiCheckbox extends Component {
             />
           );
         })}
-        {iff(this.state.errorMessage !== '' && this.state.errorMessage !== undefined, <Red>{this.state.errorMessage}</Red>, undefined)}
+        {iff(this.state.errorMessage !== '' && this.state.errorMessage !== undefined, () => <Red>{this.state.errorMessage}</Red>, () => undefined)}
       </Container>
     );
   }

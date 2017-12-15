@@ -57,9 +57,7 @@ export default class MultiCheckboxDemo extends Component {
       <div>
         <h1>MultiCheckbox</h1>
         <MultiCheckbox {...this.state.demo1Porps} validateFunction={this.validateFunction} onChange={this.onChange} />
-        <textarea onKeyUp={this.keyup} name="" id="" cols="100" rows="20">
-          {JSON.stringify(this.state.demo1Porps, null, '\t')}
-        </textarea>
+        <textarea value={JSON.stringify(this.state.demo1Porps, null, '\t')} onChange={this.keyup} name="" id="" cols="100" rows="20" />
       </div>
     );
   }
