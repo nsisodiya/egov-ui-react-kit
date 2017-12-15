@@ -1,24 +1,22 @@
-How to start
+What?
+=========
+
+This repo contains React Components.
+
+Demo
+=====
+MultiCheckbox - https://codesandbox.io/s/5y89774wmx
+
+Develop
 ============
 ```bash
 npm install
 npm run devserver 
-open http://localhost:8123
+open http://localhost:8912
 ```
-
-
-
-Working
-========
-
-* Eslint in Browser, Terminal, Editor
-* No commit on Eslint Error
-* LiveReload
 
 TODO 
 ======
-
-* JS and CSS beautification via prettier
+* CSS beautification via prettier
 * Docker Compose Server up.
-* Demo Page
-* http://localhost:8123 should be opened directly after the server running. 
+* Demo Page.
