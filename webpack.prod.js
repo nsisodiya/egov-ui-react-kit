@@ -39,6 +39,12 @@ module.exports = {
       commonjs2: 'styled-components',
       amd: 'StyledComponents',
       root: 'StyledComponents'
+    },
+    'react-json-viewer': {
+      commonjs: 'react-json-viewer',
+      commonjs2: 'react-json-viewer',
+      amd: 'ReactJsonViewer',
+      root: 'ReactJsonViewer'
     }
   },
   devtool: 'source-map',
