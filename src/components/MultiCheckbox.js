@@ -12,17 +12,23 @@ import Required from './Required';
 
 const Container = styled.div`
   border: 1px solid lightgray;
-  padding: 30px;
+  padding: 10px;
 `;
 
-const iff = function(condition, tVal, fVal) {
+// const iff = function(condition, tVal, fVal) {
+//   if (condition === true) {
+//     return tVal;
+//   } else {
+//     return fVal;
+//   }
+// };
+const iff = function(condition, tValfunc, fValfunc) {
   if (condition === true) {
-    return tVal;
+    return tValfunc();
   } else {
-    return fVal;
+    return fValfunc();
   }
 };
-
 export default class MultiCheckbox extends Component {
   static propTypes = {
     isDisabled: PropTypes.bool,
@@ -117,13 +123,15 @@ export default class MultiCheckbox extends Component {
       <Container>
         {iff(
           this.props.debug,
-          <div>
-            <h1>State</h1>
-            <ReactJsonViewer json={JSON.parse(JSON.stringify(this.state))} />
-            <h2>Props</h2>
-            <ReactJsonViewer json={JSON.parse(JSON.stringify(this.props))} />
-          </div>,
-          undefined
+          () => (
+            <div>
+              <h3>State</h3>
+              <ReactJsonViewer json={JSON.parse(JSON.stringify(this.state))} />
+              <h3>Props</h3>
+              <ReactJsonViewer json={JSON.parse(JSON.stringify(this.props))} />
+            </div>
+          ),
+          () => undefined
         )}
         <div>
           {this.props.displayLabel} <Required value={this.props.isRequired} />

@@ -55,7 +55,7 @@ export default class MultiCheckboxDemo extends Component {
     console.log('LifeCycle: MultiCheckboxDemo: Render');
     return (
       <div>
-        <h1>Demo MultiCheckbox</h1>
+        <h1>MultiCheckbox</h1>
         <MultiCheckbox {...this.state.demo1Porps} validateFunction={this.validateFunction} onChange={this.onChange} />
         <textarea onKeyUp={this.keyup} name="" id="" cols="100" rows="20">
           {JSON.stringify(this.state.demo1Porps, null, '\t')}

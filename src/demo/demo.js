@@ -16,7 +16,7 @@ import ComponentLoader from '../components/ComponentLoader';
 // print(UiNumberField);
 
 const Container = styled.div`
-  padding: 20px;
+  padding: 5px;
   border: 2px solid palevioletred;
 `;
 
