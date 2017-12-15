@@ -1,0 +1,889 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.10.0",
+  "hash": "4af043023b1a460f5bfa",
+  "time": 3836,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "EGovReactKit": [
+      "EGovReactKit.js",
+      "EGovReactKit.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "EGovReactKit.js",
+      "size": 15555,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "EGovReactKit"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "EGovReactKit.js.map",
+      "size": 15496,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "EGovReactKit"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "EGovReactKit": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "EGovReactKit.js",
+        "EGovReactKit.js.map"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 11417,
+      "names": [
+        "EGovReactKit"
+      ],
+      "files": [
+        "EGovReactKit.js",
+        "EGovReactKit.js.map"
+      ],
+      "hash": "0b6e9f0fa3222edbba6f",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+          "name": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "11:13-29"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+              "module": "./src/components/Required.js",
+              "moduleName": "./src/components/Required.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "8:13-29"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 1,
+          "identifier": "external {\"commonjs\":\"prop-types\",\"commonjs2\":\"prop-types\",\"amd\":\"PropTypes\",\"root\":\"PropTypes\"}",
+          "name": "external {\"commonjs\":\"prop-types\",\"commonjs2\":\"prop-types\",\"amd\":\"PropTypes\",\"root\":\"PropTypes\"}",
+          "index": 3,
+          "index2": 1,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "prop-types",
+              "loc": "15:17-38"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+              "module": "./src/components/Required.js",
+              "moduleName": "./src/components/Required.js",
+              "type": "cjs require",
+              "userRequest": "prop-types",
+              "loc": "16:17-38"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 2,
+          "identifier": "external {\"commonjs\":\"styled-components\",\"commonjs2\":\"styled-components\",\"amd\":\"StyledComponents\",\"root\":\"StyledComponents\"}",
+          "name": "external {\"commonjs\":\"styled-components\",\"commonjs2\":\"styled-components\",\"amd\":\"StyledComponents\",\"root\":\"StyledComponents\"}",
+          "index": 4,
+          "index2": 2,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Red.js",
+              "module": "./src/components/Red.js",
+              "moduleName": "./src/components/Red.js",
+              "type": "cjs require",
+              "userRequest": "styled-components",
+              "loc": "9:24-52"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "styled-components",
+              "loc": "19:24-52"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Red.js",
+          "name": "./src/components/Red.js",
+          "index": 6,
+          "index2": 4,
+          "size": 968,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "./Red",
+              "loc": "25:11-27"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+              "module": "./src/components/Required.js",
+              "moduleName": "./src/components/Required.js",
+              "type": "cjs require",
+              "userRequest": "./Red",
+              "loc": "12:11-27"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  color: red;\\n'], ['\\n  color: red;\\n']);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /**\n                                                                                                                                                   * Created by narendrasisodiya on 14/12/17.\n                                                                                                                                                   */\n\nvar Red = _styledComponents2.default.span(_templateObject);\nexports.default = Red;"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+          "name": "./src/egov-react-kit.js",
+          "index": 0,
+          "index2": 9,
+          "size": 508,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.MultiCheckbox = undefined;\n\nvar _MultiCheckbox = require('./components/MultiCheckbox');\n\nvar _MultiCheckbox2 = _interopRequireDefault(_MultiCheckbox);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  MultiCheckbox: _MultiCheckbox2.default\n}; /**\n    * Created by narendrasisodiya on 15/12/17.\n    */\n\nexports.MultiCheckbox = _MultiCheckbox2.default;"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "name": "./src/components/MultiCheckbox.js",
+          "index": 1,
+          "index2": 8,
+          "size": 8628,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+          "issuerId": 4,
+          "issuerName": "./src/egov-react-kit.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+              "module": "./src/egov-react-kit.js",
+              "moduleName": "./src/egov-react-kit.js",
+              "type": "cjs require",
+              "userRequest": "./components/MultiCheckbox",
+              "loc": "8:21-58"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  border: 1px solid gray;\\n  padding: 10px;\\n'], ['\\n  border: 1px solid gray;\\n  padding: 10px;\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _materialUi = require('material-ui');\n\nvar _Red = require('./Red');\n\nvar _Red2 = _interopRequireDefault(_Red);\n\nvar _reactJsonViewer = require('react-json-viewer');\n\nvar _reactJsonViewer2 = _interopRequireDefault(_reactJsonViewer);\n\nvar _Required = require('./Required');\n\nvar _Required2 = _interopRequireDefault(_Required);\n\nvar _iff = require('../helper/iff');\n\nvar _iff2 = _interopRequireDefault(_iff);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /**\n                                                                                                                                                   * Created by narendrasisodiya on 14/12/17.\n                                                                                                                                                   */\n\n// ES6\n\n\nvar Container = _styledComponents2.default.div(_templateObject);\n\nvar MultiCheckbox = function (_Component) {\n  _inherits(MultiCheckbox, _Component);\n\n  function MultiCheckbox() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, MultiCheckbox);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = MultiCheckbox.__proto__ || Object.getPrototypeOf(MultiCheckbox)).call.apply(_ref, [this].concat(args))), _this), _this.state = {\n      allCheckboxsValues: [],\n      errorMessage: ''\n    }, _this.handleCheckboxClick = function (e, index) {\n      //TODO\n      console.log('event on', index);\n      var allCheckboxsValues = JSON.parse(JSON.stringify(_this.state.allCheckboxsValues));\n      allCheckboxsValues[index] = !allCheckboxsValues[index];\n\n      var selected = _this.props.data.filter(function (v, i) {\n        return allCheckboxsValues[i];\n      }).map(function (v) {\n        return v.code;\n      });\n\n      var errorMessage = '';\n      if (typeof _this.props.validateFunction === 'function') {\n        errorMessage = _this.props.validateFunction(selected);\n      }\n\n      _this.setState({\n        allCheckboxsValues: allCheckboxsValues,\n        errorMessage: errorMessage\n      }, function () {\n        if (typeof _this.props.onChange === 'function') {\n          _this.props.onChange(selected);\n        }\n      });\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(MultiCheckbox, [{\n    key: 'componentWillMount',\n    value: function componentWillMount() {\n      console.log('LifeCycle: MultiCheckbox: componentWillMount');\n      this.calculateStateFromProps();\n    }\n  }, {\n    key: 'calculateStateFromProps',\n    value: function calculateStateFromProps() {\n      var _this2 = this;\n\n      var allCheckboxsValues = [];\n      this.props.data.forEach(function (v, i) {\n        allCheckboxsValues[i] = _this2.props.defaultValue.indexOf(v.code) !== -1;\n      });\n      this.setState({\n        allCheckboxsValues: allCheckboxsValues\n      });\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps() {\n      console.log('LifeCycle: MultiCheckbox: componentWillReceiveProps');\n    }\n  }, {\n    key: 'shouldComponentUpdate',\n    value: function shouldComponentUpdate() {\n      console.log('LifeCycle: MultiCheckbox: shouldComponentUpdate');\n      return true;\n    }\n  }, {\n    key: 'componentWillUpdate',\n    value: function componentWillUpdate() {\n      console.log('LifeCycle: MultiCheckbox: componentWillUpdate');\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      console.log('LifeCycle: MultiCheckbox: componentDidUpdate');\n    }\n  }, {\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      console.log('LifeCycle: MultiCheckbox: componentDidMount');\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      console.log('LifeCycle: MultiCheckbox: render');\n      return _react2.default.createElement(\n        Container,\n        null,\n        (0, _iff2.default)(this.props.debug, function () {\n          return _react2.default.createElement(\n            'div',\n            null,\n            _react2.default.createElement(\n              'h3',\n              null,\n              'State'\n            ),\n            _react2.default.createElement(_reactJsonViewer2.default, { json: JSON.parse(JSON.stringify(_this3.state)) }),\n            _react2.default.createElement(\n              'h3',\n              null,\n              'Props'\n            ),\n            _react2.default.createElement(_reactJsonViewer2.default, { json: JSON.parse(JSON.stringify(_this3.props)) })\n          );\n        }, function () {\n          return undefined;\n        }),\n        _react2.default.createElement(\n          'div',\n          null,\n          this.props.displayLabel,\n          ' ',\n          _react2.default.createElement(_Required2.default, { value: this.props.isRequired })\n        ),\n        this.props.data.map(function (item, index) {\n          return _react2.default.createElement(_materialUi.Checkbox, {\n            key: index,\n            id: item.code,\n            label: item.label,\n            checked: _this3.state.allCheckboxsValues[index],\n            disabled: _this3.props.isDisabled,\n            onCheck: function onCheck(e) {\n              _this3.handleCheckboxClick(e, index);\n            }\n          });\n        }),\n        (0, _iff2.default)(this.state.errorMessage !== '' && this.state.errorMessage !== undefined, function () {\n          return _react2.default.createElement(\n            _Red2.default,\n            null,\n            _this3.state.errorMessage\n          );\n        }, function () {\n          return undefined;\n        })\n      );\n    }\n  }]);\n\n  return MultiCheckbox;\n}(_react.Component);\n\nMultiCheckbox.propTypes = {\n  isDisabled: _propTypes2.default.bool,\n  isRequired: _propTypes2.default.bool,\n  debug: _propTypes2.default.bool,\n  data: _propTypes2.default.arrayOf(_propTypes2.default.shape({\n    label: _propTypes2.default.string,\n    code: _propTypes2.default.string\n  })).isRequired,\n  defaultValue: _propTypes2.default.arrayOf(_propTypes2.default.string),\n  displayLabel: _propTypes2.default.string,\n  validateFunction: _propTypes2.default.func,\n  onChange: _propTypes2.default.func\n};\nMultiCheckbox.defaultProps = {\n  debug: false,\n  isDisabled: false,\n  isRequired: false,\n  defaultValue: [],\n  displayLabel: ''\n};\nexports.default = MultiCheckbox;"
+        },
+        {
+          "id": 6,
+          "identifier": "external {\"commonjs\":\"material-ui\",\"commonjs2\":\"material-ui\",\"amd\":\"MaterialUi\",\"root\":\"MaterialUi\"}",
+          "name": "external {\"commonjs\":\"material-ui\",\"commonjs2\":\"material-ui\",\"amd\":\"MaterialUi\",\"root\":\"MaterialUi\"}",
+          "index": 5,
+          "index2": 3,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "material-ui",
+              "loc": "23:18-40"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 7,
+          "identifier": "external {\"commonjs\":\"react-json-viewer\",\"commonjs2\":\"react-json-viewer\",\"amd\":\"ReactJsonViewer\",\"root\":\"ReactJsonViewer\"}",
+          "name": "external {\"commonjs\":\"react-json-viewer\",\"commonjs2\":\"react-json-viewer\",\"amd\":\"ReactJsonViewer\",\"root\":\"ReactJsonViewer\"}",
+          "index": 7,
+          "index2": 5,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "react-json-viewer",
+              "loc": "29:23-51"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+          "name": "./src/components/Required.js",
+          "index": 8,
+          "index2": 6,
+          "size": 811,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "./Required",
+              "loc": "33:16-37"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = Required;\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Red = require('./Red');\n\nvar _Red2 = _interopRequireDefault(_Red);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// ES6\n\nfunction Required(props) {\n  if (props.value === true) {\n    return _react2.default.createElement(\n      _Red2.default,\n      null,\n      '*'\n    );\n  } else {\n    return _react2.default.createElement('span', null);\n  }\n} /**\n   * Created by narendrasisodiya on 14/12/17.\n   */\n\nRequired.propTypes = {\n  value: _propTypes2.default.bool.isRequired\n};"
+        },
+        {
+          "id": 9,
+          "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/helper/iff.js",
+          "name": "./src/helper/iff.js",
+          "index": 9,
+          "index2": 7,
+          "size": 292,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "issuerId": 5,
+          "issuerName": "./src/components/MultiCheckbox.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+              "module": "./src/components/MultiCheckbox.js",
+              "moduleName": "./src/components/MultiCheckbox.js",
+              "type": "cjs require",
+              "userRequest": "../helper/iff",
+              "loc": "37:11-35"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = iff;\n/**\n * Created by narendrasisodiya on 15/12/17.\n */\n\nfunction iff(condition, tValfunc, fValfunc) {\n  if (condition === true) {\n    return tValfunc();\n  } else {\n    return fValfunc();\n  }\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 4,
+          "module": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+          "moduleName": "./src/egov-react-kit.js",
+          "loc": "",
+          "name": "EGovReactKit",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+      "name": "external {\"commonjs\":\"react\",\"commonjs2\":\"react\",\"amd\":\"React\",\"root\":\"React\"}",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "11:13-29"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+          "module": "./src/components/Required.js",
+          "moduleName": "./src/components/Required.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "8:13-29"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 1,
+      "identifier": "external {\"commonjs\":\"prop-types\",\"commonjs2\":\"prop-types\",\"amd\":\"PropTypes\",\"root\":\"PropTypes\"}",
+      "name": "external {\"commonjs\":\"prop-types\",\"commonjs2\":\"prop-types\",\"amd\":\"PropTypes\",\"root\":\"PropTypes\"}",
+      "index": 3,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "prop-types",
+          "loc": "15:17-38"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+          "module": "./src/components/Required.js",
+          "moduleName": "./src/components/Required.js",
+          "type": "cjs require",
+          "userRequest": "prop-types",
+          "loc": "16:17-38"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 2,
+      "identifier": "external {\"commonjs\":\"styled-components\",\"commonjs2\":\"styled-components\",\"amd\":\"StyledComponents\",\"root\":\"StyledComponents\"}",
+      "name": "external {\"commonjs\":\"styled-components\",\"commonjs2\":\"styled-components\",\"amd\":\"StyledComponents\",\"root\":\"StyledComponents\"}",
+      "index": 4,
+      "index2": 2,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Red.js",
+          "module": "./src/components/Red.js",
+          "moduleName": "./src/components/Red.js",
+          "type": "cjs require",
+          "userRequest": "styled-components",
+          "loc": "9:24-52"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "styled-components",
+          "loc": "19:24-52"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Red.js",
+      "name": "./src/components/Red.js",
+      "index": 6,
+      "index2": 4,
+      "size": 968,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "./Red",
+          "loc": "25:11-27"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+          "module": "./src/components/Required.js",
+          "moduleName": "./src/components/Required.js",
+          "type": "cjs require",
+          "userRequest": "./Red",
+          "loc": "12:11-27"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  color: red;\\n'], ['\\n  color: red;\\n']);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /**\n                                                                                                                                                   * Created by narendrasisodiya on 14/12/17.\n                                                                                                                                                   */\n\nvar Red = _styledComponents2.default.span(_templateObject);\nexports.default = Red;"
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+      "name": "./src/egov-react-kit.js",
+      "index": 0,
+      "index2": 9,
+      "size": 508,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.MultiCheckbox = undefined;\n\nvar _MultiCheckbox = require('./components/MultiCheckbox');\n\nvar _MultiCheckbox2 = _interopRequireDefault(_MultiCheckbox);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  MultiCheckbox: _MultiCheckbox2.default\n}; /**\n    * Created by narendrasisodiya on 15/12/17.\n    */\n\nexports.MultiCheckbox = _MultiCheckbox2.default;"
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "name": "./src/components/MultiCheckbox.js",
+      "index": 1,
+      "index2": 8,
+      "size": 8628,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+      "issuerId": 4,
+      "issuerName": "./src/egov-react-kit.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/egov-react-kit.js",
+          "module": "./src/egov-react-kit.js",
+          "moduleName": "./src/egov-react-kit.js",
+          "type": "cjs require",
+          "userRequest": "./components/MultiCheckbox",
+          "loc": "8:21-58"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  border: 1px solid gray;\\n  padding: 10px;\\n'], ['\\n  border: 1px solid gray;\\n  padding: 10px;\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _materialUi = require('material-ui');\n\nvar _Red = require('./Red');\n\nvar _Red2 = _interopRequireDefault(_Red);\n\nvar _reactJsonViewer = require('react-json-viewer');\n\nvar _reactJsonViewer2 = _interopRequireDefault(_reactJsonViewer);\n\nvar _Required = require('./Required');\n\nvar _Required2 = _interopRequireDefault(_Required);\n\nvar _iff = require('../helper/iff');\n\nvar _iff2 = _interopRequireDefault(_iff);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /**\n                                                                                                                                                   * Created by narendrasisodiya on 14/12/17.\n                                                                                                                                                   */\n\n// ES6\n\n\nvar Container = _styledComponents2.default.div(_templateObject);\n\nvar MultiCheckbox = function (_Component) {\n  _inherits(MultiCheckbox, _Component);\n\n  function MultiCheckbox() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, MultiCheckbox);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = MultiCheckbox.__proto__ || Object.getPrototypeOf(MultiCheckbox)).call.apply(_ref, [this].concat(args))), _this), _this.state = {\n      allCheckboxsValues: [],\n      errorMessage: ''\n    }, _this.handleCheckboxClick = function (e, index) {\n      //TODO\n      console.log('event on', index);\n      var allCheckboxsValues = JSON.parse(JSON.stringify(_this.state.allCheckboxsValues));\n      allCheckboxsValues[index] = !allCheckboxsValues[index];\n\n      var selected = _this.props.data.filter(function (v, i) {\n        return allCheckboxsValues[i];\n      }).map(function (v) {\n        return v.code;\n      });\n\n      var errorMessage = '';\n      if (typeof _this.props.validateFunction === 'function') {\n        errorMessage = _this.props.validateFunction(selected);\n      }\n\n      _this.setState({\n        allCheckboxsValues: allCheckboxsValues,\n        errorMessage: errorMessage\n      }, function () {\n        if (typeof _this.props.onChange === 'function') {\n          _this.props.onChange(selected);\n        }\n      });\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(MultiCheckbox, [{\n    key: 'componentWillMount',\n    value: function componentWillMount() {\n      console.log('LifeCycle: MultiCheckbox: componentWillMount');\n      this.calculateStateFromProps();\n    }\n  }, {\n    key: 'calculateStateFromProps',\n    value: function calculateStateFromProps() {\n      var _this2 = this;\n\n      var allCheckboxsValues = [];\n      this.props.data.forEach(function (v, i) {\n        allCheckboxsValues[i] = _this2.props.defaultValue.indexOf(v.code) !== -1;\n      });\n      this.setState({\n        allCheckboxsValues: allCheckboxsValues\n      });\n    }\n  }, {\n    key: 'componentWillReceiveProps',\n    value: function componentWillReceiveProps() {\n      console.log('LifeCycle: MultiCheckbox: componentWillReceiveProps');\n    }\n  }, {\n    key: 'shouldComponentUpdate',\n    value: function shouldComponentUpdate() {\n      console.log('LifeCycle: MultiCheckbox: shouldComponentUpdate');\n      return true;\n    }\n  }, {\n    key: 'componentWillUpdate',\n    value: function componentWillUpdate() {\n      console.log('LifeCycle: MultiCheckbox: componentWillUpdate');\n    }\n  }, {\n    key: 'componentDidUpdate',\n    value: function componentDidUpdate() {\n      console.log('LifeCycle: MultiCheckbox: componentDidUpdate');\n    }\n  }, {\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      console.log('LifeCycle: MultiCheckbox: componentDidMount');\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      console.log('LifeCycle: MultiCheckbox: render');\n      return _react2.default.createElement(\n        Container,\n        null,\n        (0, _iff2.default)(this.props.debug, function () {\n          return _react2.default.createElement(\n            'div',\n            null,\n            _react2.default.createElement(\n              'h3',\n              null,\n              'State'\n            ),\n            _react2.default.createElement(_reactJsonViewer2.default, { json: JSON.parse(JSON.stringify(_this3.state)) }),\n            _react2.default.createElement(\n              'h3',\n              null,\n              'Props'\n            ),\n            _react2.default.createElement(_reactJsonViewer2.default, { json: JSON.parse(JSON.stringify(_this3.props)) })\n          );\n        }, function () {\n          return undefined;\n        }),\n        _react2.default.createElement(\n          'div',\n          null,\n          this.props.displayLabel,\n          ' ',\n          _react2.default.createElement(_Required2.default, { value: this.props.isRequired })\n        ),\n        this.props.data.map(function (item, index) {\n          return _react2.default.createElement(_materialUi.Checkbox, {\n            key: index,\n            id: item.code,\n            label: item.label,\n            checked: _this3.state.allCheckboxsValues[index],\n            disabled: _this3.props.isDisabled,\n            onCheck: function onCheck(e) {\n              _this3.handleCheckboxClick(e, index);\n            }\n          });\n        }),\n        (0, _iff2.default)(this.state.errorMessage !== '' && this.state.errorMessage !== undefined, function () {\n          return _react2.default.createElement(\n            _Red2.default,\n            null,\n            _this3.state.errorMessage\n          );\n        }, function () {\n          return undefined;\n        })\n      );\n    }\n  }]);\n\n  return MultiCheckbox;\n}(_react.Component);\n\nMultiCheckbox.propTypes = {\n  isDisabled: _propTypes2.default.bool,\n  isRequired: _propTypes2.default.bool,\n  debug: _propTypes2.default.bool,\n  data: _propTypes2.default.arrayOf(_propTypes2.default.shape({\n    label: _propTypes2.default.string,\n    code: _propTypes2.default.string\n  })).isRequired,\n  defaultValue: _propTypes2.default.arrayOf(_propTypes2.default.string),\n  displayLabel: _propTypes2.default.string,\n  validateFunction: _propTypes2.default.func,\n  onChange: _propTypes2.default.func\n};\nMultiCheckbox.defaultProps = {\n  debug: false,\n  isDisabled: false,\n  isRequired: false,\n  defaultValue: [],\n  displayLabel: ''\n};\nexports.default = MultiCheckbox;"
+    },
+    {
+      "id": 6,
+      "identifier": "external {\"commonjs\":\"material-ui\",\"commonjs2\":\"material-ui\",\"amd\":\"MaterialUi\",\"root\":\"MaterialUi\"}",
+      "name": "external {\"commonjs\":\"material-ui\",\"commonjs2\":\"material-ui\",\"amd\":\"MaterialUi\",\"root\":\"MaterialUi\"}",
+      "index": 5,
+      "index2": 3,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "material-ui",
+          "loc": "23:18-40"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 7,
+      "identifier": "external {\"commonjs\":\"react-json-viewer\",\"commonjs2\":\"react-json-viewer\",\"amd\":\"ReactJsonViewer\",\"root\":\"ReactJsonViewer\"}",
+      "name": "external {\"commonjs\":\"react-json-viewer\",\"commonjs2\":\"react-json-viewer\",\"amd\":\"ReactJsonViewer\",\"root\":\"ReactJsonViewer\"}",
+      "index": 7,
+      "index2": 5,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "react-json-viewer",
+          "loc": "29:23-51"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/Required.js",
+      "name": "./src/components/Required.js",
+      "index": 8,
+      "index2": 6,
+      "size": 811,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "./Required",
+          "loc": "33:16-37"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = Required;\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Red = require('./Red');\n\nvar _Red2 = _interopRequireDefault(_Red);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// ES6\n\nfunction Required(props) {\n  if (props.value === true) {\n    return _react2.default.createElement(\n      _Red2.default,\n      null,\n      '*'\n    );\n  } else {\n    return _react2.default.createElement('span', null);\n  }\n} /**\n   * Created by narendrasisodiya on 14/12/17.\n   */\n\nRequired.propTypes = {\n  value: _propTypes2.default.bool.isRequired\n};"
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/helper/iff.js",
+      "name": "./src/helper/iff.js",
+      "index": 9,
+      "index2": 7,
+      "size": 292,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+      "issuerId": 5,
+      "issuerName": "./src/components/MultiCheckbox.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/babel-loader/lib/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/node_modules/eslint-loader/index.js!/Users/narendrasisodiya/Coding/consultancy/egov/egov-ui-react-kit/src/components/MultiCheckbox.js",
+          "module": "./src/components/MultiCheckbox.js",
+          "moduleName": "./src/components/MultiCheckbox.js",
+          "type": "cjs require",
+          "userRequest": "../helper/iff",
+          "loc": "37:11-35"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = iff;\n/**\n * Created by narendrasisodiya on 15/12/17.\n */\n\nfunction iff(condition, tValfunc, fValfunc) {\n  if (condition === true) {\n    return tValfunc();\n  } else {\n    return fValfunc();\n  }\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

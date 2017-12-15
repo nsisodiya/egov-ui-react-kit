@@ -142,6 +142,7 @@
       "unix"
     ],
     "new-parens": 2,
+    "no-useless-rename": 2,
     "no-confusing-arrow": 2,
     "no-const-assign": 2,
     "no-dupe-class-members": 2,

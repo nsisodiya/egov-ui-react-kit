@@ -11,24 +11,11 @@ import ReactJsonViewer from 'react-json-viewer';
 import Required from './Required';
 
 const Container = styled.div`
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   padding: 10px;
 `;
 
-// const iff = function(condition, tVal, fVal) {
-//   if (condition === true) {
-//     return tVal;
-//   } else {
-//     return fVal;
-//   }
-// };
-const iff = function(condition, tValfunc, fValfunc) {
-  if (condition === true) {
-    return tValfunc();
-  } else {
-    return fValfunc();
-  }
-};
+import iff from '../helper/iff';
 export default class MultiCheckbox extends Component {
   static propTypes = {
     isDisabled: PropTypes.bool,

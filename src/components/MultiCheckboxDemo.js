@@ -5,42 +5,48 @@
 import React, { Component } from 'react';
 import MultiCheckbox from './MultiCheckbox';
 
+var demo1Porps = {
+  debug: true,
+  displayLabel: 'Please selected your hobbies',
+  isRequired: true,
+  isDisabled: false,
+  defaultValue: ['C2'],
+  data: [
+    {
+      label: 'Coding',
+      code: 'C1',
+    },
+    {
+      label: 'Programming',
+      code: 'C2',
+    },
+    {
+      label: 'Dummy Label 2',
+      code: 'C3',
+    },
+  ],
+};
 export default class MultiCheckboxDemo extends Component {
   state = {
-    demo1Porps: {
-      debug: true,
-      displayLabel: 'Please selected your hobbies',
-      isRequired: true,
-      isDisabled: false,
-      defaultValue: ['C2'],
-      data: [
-        {
-          label: 'Coding',
-          code: 'C1',
-        },
-        {
-          label: 'Programming',
-          code: 'C2',
-        },
-        {
-          label: 'Dummy Label 2',
-          code: 'C3',
-        },
-      ],
-    },
+    textAreaValue: JSON.stringify(demo1Porps, null, '\t'),
+    demo1Porps: demo1Porps,
   };
   onChange = selected => {
     console.log('Current Selected value is ', selected);
   };
-  keyup = e => {
-    console.log('KeyUp Called');
+  handleOnChangeTextArea = e => {
+    console.log('handleOnChangeTextArea Called');
+    var textAreaValue = e.target.value;
     try {
-      var demo1Porps = JSON.parse(e.target.value);
+      var temp = JSON.parse(textAreaValue);
       this.setState({
-        demo1Porps: demo1Porps,
+        textAreaValue,
+        demo1Porps: temp,
       });
     } catch (ex) {
-      console.log('Error', ex);
+      this.setState({
+        textAreaValue,
+      });
     }
   };
   validateFunction = selected => {
@@ -57,7 +63,7 @@ export default class MultiCheckboxDemo extends Component {
       <div>
         <h1>MultiCheckbox</h1>
         <MultiCheckbox {...this.state.demo1Porps} validateFunction={this.validateFunction} onChange={this.onChange} />
-        <textarea value={JSON.stringify(this.state.demo1Porps, null, '\t')} onChange={this.keyup} name="" id="" cols="100" rows="20" />
+        <textarea value={this.state.textAreaValue} onChange={this.handleOnChangeTextArea} name="" id="" cols="100" rows="20" />
       </div>
     );
   }
