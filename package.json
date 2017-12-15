@@ -10,7 +10,7 @@
     "precommit": "npm run eslint",
     "devserver": "webpack-dev-server --config webpack.dev.js",
     "productionBuild": "npm run prettier && npm run build",
-    "build": "webpack -p --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
     "generateStates": "webpack --json --config webpack.prod.js> state.json",
     "prettier": "prettier --write \"src/**/*.js\"",
     "eslint": "eslint -c .eslintrc src",
