@@ -1,25 +1,14 @@
 /**
  * Created by narendrasisodiya on 09/12/17.
  */
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
-const isCorrectPropType = (method, propType) =>
-  method === PropTypes[propType] || method === PropTypes[propType].isRequired;
+const isCorrectPropType = (method, propType) => method === PropTypes[propType] || method === PropTypes[propType].isRequired;
 
-const isPropTypeRequired = (method, propType) =>
-  method === PropTypes[propType].isRequired;
+const isPropTypeRequired = (method, propType) => method === PropTypes[propType].isRequired;
 
 const getPropInfo = method => {
-  const propTypes = [
-    "node",
-    "bool",
-    "array",
-    "func",
-    "number",
-    "object",
-    "string",
-    "symbol"
-  ];
+  const propTypes = ['node', 'bool', 'array', 'func', 'number', 'object', 'string', 'symbol'];
   return propTypes.reduce((obj, curr) => {
     const isCorrect = isCorrectPropType(method, curr);
     if (obj.type) {
@@ -41,8 +30,8 @@ const propTypesToObject = ({ checkPropTypes, propTypes, defaultProps }) => {
       ...obj,
       [curr]: {
         type: info.type,
-        required: info.required
-      }
+        required: info.required,
+      },
     };
   }, {});
   Object.keys(newProps).forEach(function(propName) {

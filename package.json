@@ -2,22 +2,20 @@
   "name": "@nsisodiya/egov-ui-react-kit",
   "version": "1.0.0",
   "description": "UI React Kit for the EGov Project",
-  "main": "index.js",
+  "main": "dist/EGovReactKit.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "precommit": "npm run eslint",
-    "test": "echo \"Error: no test specified\"",
-    "publishPackage": "np --any-branch ",
+    "devserver": "webpack-dev-server --config webpack.dev.js",
+    "productionBuild": "npm run prettier && npm run build",
+    "build": "webpack -p --config webpack.prod.js",
+    "generateStates": "webpack --json --config webpack.prod.js> state.json",
+    "prettier": "prettier --write \"src/**/*.js\"",
     "eslint": "eslint -c .eslintrc src",
+    "publishPackage": "np --any-branch ",
     "createGitLog": "git log --graph --pretty=format:'%h%  -   <%an> -   %s (%cD)' --abbrev-commit | head -n50 > ./dist/log.txt",
-    "devserver": "webpack-dev-server --content-base ./dist --port 8123 --colors --history-api-fallback",
-    "productionBuild": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --colors",
-    "watch": "webpack --config webpack.config.js --watch",
-    "generateStates": "webpack --profile --json > stats.json",
-    "prettierJS": "??",
-    "prettierCSS": "??",
     "detectCopyPaste": "jscpd"
   },
   "repository": {
@@ -31,32 +29,39 @@
     "url": "https://github.com/nsisodiya/egov-ui-react-kit/issues"
   },
   "homepage": "https://github.com/nsisodiya/egov-ui-react-kit#readme",
+  "peerDependencies": {
+    "prop-types": ">=15.5.8",
+    "react": ">=0.14.0",
+    "react-dom": ">=0.14.0",
+    "material-ui": ">=0.18.1",
+    "styled-components": ">=2.2.0"
+  },
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
+    "babel-eslint": "8.0.3",
     "babel-loader": "7.1.2",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
-    "copy-webpack-plugin": "4.2.3",
+    "copy-webpack-plugin": "4.3.0",
     "css-loader": "0.28.7",
-    "eslint": "4.12.1",
+    "eslint": "4.13.1",
     "eslint-loader": "1.9.0",
+    "eslint-plugin-babel": "4.1.2",
     "eslint-plugin-react": "7.5.1",
     "husky": "0.14.3",
-    "prettier": "1.9.1",
-    "style-loader": "0.19.0",
+    "prettier": "1.9.2",
+    "style-loader": "0.19.1",
     "webpack": "3.10.0",
-    "webpack-dev-server": "2.9.5"
-  },
-  "dependencies": {
-    "babel-eslint": "8.0.3",
-    "material-ui": "0.20.0",
-    "normalize.css": "7.0.0",
+    "webpack-dev-server": "2.9.7",
     "prop-types": "15.6.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "material-ui": "0.20.0",
+    "normalize.css": "7.0.0",
+    "react-json-viewer": "1.7.1",
     "styled-components": "2.2.4"
   }
 }
